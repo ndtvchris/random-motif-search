@@ -560,16 +560,3 @@ def main(inFile, myCommandLine=None):
 if __name__ == "__main__":
     main('allFilesCrisprs.fa', ['-i 1000', '-p 1', '-k 13'])
 
-# **INSPECTIONS**
-#
-# *INSPECTED BY : DAN XU, CHRIS CONDON, IMMAAD MIR
-#
-# SUGGESTIONS:
-# 1. VARIABLE NAMES CAN BE A BIT MORE EXPLANATORY **(NOT TAKEN)**
-# 2. NAMES ARE A BIT LONG FOR SOME THINGS **(TAKEN)**
-# 3. TOO MUCH WHITESPACE MAKES IT HARD TO FOLLOW **(TAKEN)**
-# 4. Some of your if-else statements to update your ATCG counts could dangerous, since you end your last statement with else: --> update 'G'. This could be problematic in the case that there is an 'N' or non-canonical base in the sequence somewhere. **(TAKEN)**
-# 5. Naming is good other than fullCalc, change that one **(NOT TAKEN)**
-# 6. Re-order your classes for readability. I would start with the command line class, then the FastA class, then the dataMaker and RandomizedMotifSearch and finally end with the main. **(SOMEWHAT TAKEN)**
-#
-#
